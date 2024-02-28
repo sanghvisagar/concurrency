@@ -11,7 +11,6 @@ import (
 var MAX_INT = 100000000
 var totalPrimeCount int32 = 0
 var concurrency = 10
-var batchSize = 1000000
 
 func checkPrime(x int) {
 	if x&1 == 0 {
