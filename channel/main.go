@@ -71,7 +71,7 @@ func main() {
 	chan1 <- "sagar"
 	chan1 <- "sanghvi"
 
-	close(chan1)
+	// close(chan1)
 
 	for elem := range chan1 {
 		fmt.Println(elem)
