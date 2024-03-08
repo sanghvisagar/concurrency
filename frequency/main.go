@@ -22,6 +22,7 @@ func main() {
 		} else {
 			frquencyMap[fruit] = 1
 			firstOccurenceMap[fruit] = idx
+			
 		}
 	}
 
